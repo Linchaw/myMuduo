@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Server",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/bin/server", // 可执行文件路径
+            "args": [], // 如果有命令行参数可以在这里添加
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build server",
+            "miDebuggerPath": "/usr/bin/gdb", // GDB的路径
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "miDebuggerArgs": "",
+            "targetArchitecture": "x86_64",
+            "logging": {
+                "moduleLoad": false,
+                "trace": false
+            },
+            "launchCompleteCommand": "exec-run",
+            "debugServerPath": "",
+            "debugServerArgs": ""
+        }
+    ]
+}

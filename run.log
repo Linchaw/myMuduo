@@ -1,0 +1,70 @@
+[INFO]Channel::enablereading()--SPID:15527	 time: 2024-08-07 23:03:54
+[INFO]Channel::handleEvent--EPOLLIN | EPOLLPRI--SPID:15527	 time: 2024-08-07 23:03:56
+[INFO]TcpServer::newconnection--SPID:15527	 time: 2024-08-07 23:03:56
+[INFO]Channel::enablereading()--SPID:15527	 time: 2024-08-07 23:03:56
+[INFO]EchoServer::HandleNewConn(spconn conn)--SPID:15527--New Connection: 127.0.0.1:49978-9	 time: 2024-08-07 23:03:56
+[INFO]Channel::handleEvent--EPOLLIN | EPOLLPRI--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]Connection::handlemessage--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]TcpServer::handlemessage--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]EchoServer::HandleMessage--Received: 这是第0条消息--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]TcpServer::handlemessage--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]EchoServer::HandleMessage--Received: 这是第1条消息--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]EchoServer::DowithMessage-SPID:15531	 time: 2024-08-07 23:03:56
+[INFO][INFO]EchoServer::HandleMessage--Received: 这是第2条消息--SPID:15528	 time: [INFO]Connection::sendmsg--SPID:15531	 time: 2024-08-07 23:03:56
+[INFO]EchoServer::HandleMessage--Received: 这是第2条消息--SPID:15528	 time: [INFO]Connection::sendmsg--SPID:15531	 time: 2024-08-07 23:03:56
+2024-08-07 23:03:56
+[INFO]Channel::enablewriting()--SPID:15531	 time: 2024-08-07 23:03:56
+[INFO]EchoServer::DowithMessage-SPID:15532	 time: 2024-08-07 23:03:56
+[INFO]Connection::sendmsg--SPID:15532	 time: 2024-08-07 23:03:56
+[INFO]Connection::sendmsg--SPID:15532	 time: 2024-08-07 23:03:56
+2024-08-07 23:03:56
+[INFO]Connection::writeCallback()--SPID:15528	 time: 2024-08-07 23:03:56
+2024-08-07 23:03:56
+[INFO]EchoServer::DowithMessage-SPID:15531	 time: 2024-08-07 23:03:56
+[INFO]Connection::sendmsg--SPID:15531	 time: 2024-08-07 23:03:56
+[INFO]Channel::enablewriting()--SPID:15531	 time: 2024-08-07 23:03:56
+[INFO]Channel::handleEvent--EPOLLOUT--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]Connection::writeCallback()--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]TcpServer::sendfinish--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]EchoServer::HandleCompleteSend--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]Channel::disablewriting()--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]Channel::handleEvent--EPOLLIN | EPOLLPRI--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]Connection::handlemessage--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]Connection::closeCallback()--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]Channel::remove()--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]TcpServer::closeconnection--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]EchoServer::HandleClose(spconn conn)--Connection closed!!!---fd:9--SPID:15528	 time: 2024-08-07 23:03:56
+[INFO]Channel::handleEvent--EPOLLIN | EPOLLPRI--SPID:15527	 time: 2024-08-07 23:03:59
+[INFO]TcpServer::newconnection--SPID:15527	 time: 2024-08-07 23:03:59
+[INFO]Channel::enablereading()--SPID:15527	 time: 2024-08-07 23:03:59
+[INFO]EchoServer::HandleNewConn(spconn conn)--SPID:15527--New Connection: 127.0.0.1:50300-9	 time: 2024-08-07 23:03:59
+[INFO]Channel::handleEvent--EPOLLIN | EPOLLPRI--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]Connection::handlemessage--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]TcpServer::handlemessage--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]EchoServer::HandleMessage--Received: 这是第0条消息--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]TcpServer::handlemessage--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]EchoServer::HandleMessage--Received: 这是第1条消息--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]EchoServer::DowithMessage-SPID:15533	 time: 2024-08-07 23:03:59
+[INFO]EchoServer::DowithMessage-SPID:15533	 time: 2024-08-07 23:03:59
+[INFO]TcpServer::handlemessage--SPID:15528	 time: 2024-08-07 23:03:59
+03:59
+[INFO]Connection::sendmsg--SPID:15532	 time: 2024-08-07 23:03:59
+[INFO]Channel::enablewriting()--SPID:15532	 time: 2024-08-07 23:03:59
+[INF-08-07 23:03:59
+[INFO]Channel::enablewriting()--SPID:15533	 time: 2024-08-07 23:03:59
+2024-08-07 23:03:59
+[INFO]EchoServer::DowithMessage-SPID:15531	 time: 2024-08-07 23:03:59
+[INFO]Connection::sendmsg--SPID:15531	 time: [INFO]Channel::handleEvent--EPOLLOUT--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]Connection::sendmsg--SPID:15531	 time: [INFO]Channel::handleEvent--EPOLLOUT--SPID:15528	 time: 2024-08-07 23:03:59
+2024-08-07 23:03:59
+[INFO]2024-08-nection::writeCallback()--SPID:15528	 time: 07 23:03:59
+2024-08-07 23:03:59
+[INFO]TcpServer::sendfinish--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]EchoServer::HandleCompleteSend--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]Channel::disablewriting()--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]Channel::handleEvent--EPOLLIN | EPOLLPRI--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]Connection::handlemessage--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]Connection::closeCallback()--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]Channel::remove()--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]TcpServer::closeconnection--SPID:15528	 time: 2024-08-07 23:03:59
+[INFO]EchoServer::HandleClose(spconn conn)--Connection closed!!!---fd:9--SPID:15528	 time: 2024-08-07 23:03:59
